@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4958f5a7-7f95-4cd5-babf-95ec6b549e5c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/tuiter/bookmarks.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/tuiter/edit-profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/tuiter/explore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/tuiter/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/tuiter/like.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/tuiter/likes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/tuiter/lists.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/tuiter/media.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/tuiter/messages.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/tuiter/notifications.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/tuiter/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/tuiter/reply.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/tuiter/retuit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/tuiter/share.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/tuiter/topic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/tuiter/tuit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/tuiter/tuits-and-replies.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/tuiter/tuits.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/labs/a2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/labs/a2/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673633470831</updated>
       <workItem from="1673633474025" duration="5298000" />
-      <workItem from="1674504252447" duration="9697000" />
+      <workItem from="1674504252447" duration="10714000" />
     </task>
     <servers />
   </component>
