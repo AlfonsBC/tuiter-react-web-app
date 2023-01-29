@@ -1,0 +1,89 @@
+body {
+    background: black;
+    outline-offset: 16px;
+}
+::placeholder { /* Most modern browsers support this now. */
+    color:    white;
+}
+.wd-corner {
+    border-radius: 50px;
+    width: 90%;
+    height: 30px;
+    margin-left: 16px;
+}
+.wd-fg-color-white { color: white; }
+
+.wd-flex-container {
+    border-width: 2px;
+    border-color: rgb(47,51,54);
+    border-style: solid;
+    margin-left: 16px;
+    display:flex;
+}
+.wd-fl-between{
+    justify-content: space-evenly;
+
+}
+.wd-fl-box{
+    padding: 16px;
+    font-size: 15px;
+    font-family: Roboto Black ;
+}
+.wd-color-gray{
+    color: rgb(110,118,125);
+}
+.wd-color-white{
+    color:white;
+    font-size: 15px;
+}
+.wd-rounded-corners-all-around {
+    border-radius: 15px;
+}
+.wd-color-white-title{
+    color:white;
+    font-size: 19px;
+}
+.wd-color-blue{
+    color: rgb(29,161,242);
+}
+.wd-bottom-blue{
+    border-bottom: 4px solid;
+    border-bottom-color: rgb(29,161,242);
+}
+.wd-without-bottomborder{
+    border-bottom: 2px solid;
+    border-bottom-color: black;
+}
+.wd-without-topborder{
+    border-top: 2px solid;
+    border-top-color: black;
+}
+
+.wd-fl-box-trending{
+    font-size: 13px;
+    padding: 16px;
+}
+
+.wd-flex-box {
+    margin : 10px;
+    padding: 10px;
+}
+
+.wd-flex-top {
+    margin-top: 15px;
+}
+.wd-bg-color-gray {
+    background-color: #6F7378;
+}
+.wd-grid-row {
+    clear: both;
+}
+
+.wd-grid-col-eighty-page {
+    width: 100%;
+    float: left;
+}
+.wd-grid-col-twenty-page {
+    width: 10%;
+    float: left;
+}
