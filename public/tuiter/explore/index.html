@@ -2,11 +2,15 @@
 <html>
 <head>
     <title>Explore</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+          rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+          rel="stylesheet"/>
     <link href="index.css"
           rel="stylesheet"/>
 </head>
 <body>
-<div class="wd-flex-container wd-grid-row wd-without-bottomborder">
+<!-- <div class="wd-flex-container wd-grid-row wd-without-bottomborder">
     <div class="wd-grid-col-eighty-page wd-flex-top ">
     <input type="text" class="wd-corner wd-bg-color-gray wd-fg-color-white" placeholder="Search Twitter">
     </div>
@@ -77,6 +81,384 @@
     <div class="wd-grid-col-twenty-page wd-flex-box">
         <img src="imgs/photo.jpg"alt="Fed chair" class="wd-rounded-corners-all-around" width="100px" height="100px">
     </div>
+</div> -->
+<!-- VISUAL ----------------------------------------------------------->
+<!--
+<h2>Hiding and showing responsive content</h2>
+<div class="d-block d-sm-none fa-2x">XS</div>
+<div class="d-none d-sm-block d-md-none fa-2x">S</div>
+<div class="d-none d-md-block d-lg-none fa-2x">M</div>
+<div class="d-none d-lg-block d-xl-none fa-2x">L</div>
+<div class="d-none d-xl-block d-xxl-none fa-2x">XL</div>
+<div class="d-none d-xxl-block fa-2x">XXL</div>
+
+
+-->
+<!-- VISUAL ----------------------------------------------------------->
+
+
+<div class="container mt-4">
+<div class="row">
+    <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2">
+        <div class="d-none d-xxl-block d-xl-block">
+        <ul class="list-group">
+            <li class="list-group-item wd-search-items">
+                <i class="fab fa-twitter fa-x"></i>
+            </li>
+
+        <li class="list-group-item wd-search-items">
+                <div class="row">
+                    <div class="col-2">
+                    <i class="fa fa-home fa-x"></i>
+                    </div>
+                    <div class="col-10">
+                        Home
+                    </div>
+                </div>
+            </li>
+
+            <li class="list-group-item wd-search-items wd-active">
+                <div class="row">
+                    <div class="col-2">
+                        <i class="fa fa-hashtag fa-x"></i>
+                    </div>
+                    <div class="col-10">
+                        Explore
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item wd-search-items">
+                <div class="row">
+                    <div class="col-2">
+                        <i class="fa fa-bell fa-x"></i>
+                    </div>
+                    <div class="col-10">
+                        Notifications
+                    </div>
+                </div>
+
+            </li>
+            <li class="list-group-item wd-search-items">
+                <div class="row">
+                    <div class="col-2">
+                        <i class="fa fa-envelope fa-x"></i>
+                    </div>
+                    <div class="col-10">
+                        Messages
+                    </div>
+                </div>
+
+            </li>
+            <li class="list-group-item wd-search-items">
+                <div class="row">
+                    <div class="col-2">
+                        <i class="fa fa-bookmark fa-x"></i>
+                    </div>
+                    <div class="col-10">
+                        Bookmarks
+                    </div>
+                </div>
+
+            </li>
+            <li class="list-group-item wd-search-items">
+
+                <div class="row">
+                    <div class="col-2">
+                        <i class="fa fa-list fa-x"></i>
+                    </div>
+                    <div class="col-10">
+                        Lists
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item wd-search-items">
+
+                <div class="row">
+                    <div class="col-2">
+                        <i class="fa fa-user fa-x"></i>
+                    </div>
+                    <div class="col-10">
+                        Profile
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item wd-search-items">
+                <div class="row">
+                    <div class="col-2">
+                        <i class="fa fa-chevron-circle-right  fa-x"></i>
+                    </div>
+                    <div class="col-10">
+                        More
+                    </div>
+                </div>
+
+            </li>
+        </ul>
+
+        <div class="d-none d-xxl-block">
+            <button class="btn btn-primary btn-md xxl-btn ">
+                Tweet
+            </button>
+        </div>
+        <div class="d-none d-xl-block d-xxl-none">
+            <button class="btn btn-primary btn-md xl-btn">
+                Tweet
+            </button>
+        </div>
+        </div>
+        <!-- Sidebar -->
+        <div class="d-none d-lg-block d-md-block d-sm-block d-xl-none">
+            <ul class="list-group ">
+                <li class="list-group-item wd-search-items-l">
+                    <div class="row">
+                    <i class="fab fa-twitter fa-x"></i>
+                    </div>
+                </li>
+
+                <li class="list-group-item wd-search-items-l">
+                    <div class="row">
+                            <i class="fa fa-home fa-x"></i>
+
+                    </div>
+                </li>
+
+                <li class="list-group-item wd-active wd-search-items">
+                    <div class="row">
+                            <i class="fa fa-hashtag fa-x"></i>
+
+                    </div>
+                </li>
+                <li class="list-group-item wd-search-items-l">
+                    <div class="row">
+                            <i class="fa fa-bell fa-x"></i>
+                    </div>
+                </li>
+                <li class="list-group-item wd-search-items-l">
+                    <div class="row">
+                            <i class="fa fa-envelope fa-x"></i>
+                    </div>
+
+                </li>
+                <li class="list-group-item wd-search-items-l">
+                    <div class="row">
+                            <i class="fa fa-bookmark fa-x"></i>
+                    </div>
+
+                </li>
+                <li class="list-group-item wd-search-items-l">
+
+                    <div class="row">
+                            <i class="fa fa-list fa-x"></i>
+                    </div>
+                </li>
+                <li class="list-group-item wd-search-items-l">
+
+                    <div class="row">
+                            <i class="fa fa-user fa-x"></i>
+                    </div>
+
+                </li>
+                <li class="list-group-item wd-search-items-l">
+                    <div class="row">
+                            <i class="fa fa-chevron-circle-right  fa-x"></i>
+                    </div>
+
+                </li>
+            </ul>
+                <div class="d-none d-lg-block d-xl-none ">
+                    <button class="btn btn-primary btn-md lg-btn">
+                        Tweet
+                    </button>
+                </div>
+            <div class="d-none d-md-block d-lg-none ">
+                <button class="btn btn-primary btn-md md-btn">
+                    Tweet
+                </button>
+            </div>
+            <div class="d-none d-sm-block d-md-none ">
+                <button class="btn btn-primary btn-sm sm-btn">
+                    Tweet
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="col-7 col-sm-10 col-md-10 col-lg-7 col-xl-7 col-xxl-7">
+        <div class="row">
+            <div class="col-10">
+        <div class="card override_bar">
+        <div class="card-body p-2">
+            <div class="input-group input-group-lg">
+                <span class="input-group-text border-0 wd-transparent pb-5" >
+                    <i class="fas fa-search fa-sm wd-text-gray"></i></span>
+                <input type="text" class="form-control wd-text-gray form-control-lg rounde bg-transparent wd-text-gray pb-4"
+                       placeholder="Search Twitter" />
+            </div>
+    </div>
+    </div>
+            </div>
+            <div class="col-2 ps-5 mt-2">
+                <i class="fas fa-cog fa-lg wd-text-gray"></i>
+            </div>
+    </div>
+        <div class="wd-flex-container wd-without-topborder wd-fl-between">
+            <div class="wd-fl-box wd-color-blue wd-bottom-blue">For you</div>
+            <div class="wd-fl-box wd-color-gray">Trending</div>
+            <div class="wd-fl-box wd-color-gray">News</div>
+            <div class="wd-fl-box wd-color-gray">Sports</div>
+            <div class="wd-fl-box wd-color-gray">Entertainment</div>
+        </div>
+
+        <!-- Principal Tweet --------------------------------------------------------------------- -->
+    <div class="wd-img-container">
+    <img src="imgs/boston_fall.jpeg" width="97%">
+        <div class="wd-bottom-left-small">
+           <span class="wd-color-white-small">Nature - LIVE</span>
+        </div>
+        <div class="wd-bottom-left-title">
+            <span class="wd-color-white-title-tweet wd-fl-box">Boston Public Garden</span>
+        </div>
+    </div>
+        <!-- Principal Tweet --------------------------------------------------------------------- -->
+        <div class="wd-flex-container wd-without-bottomborder">
+            <div class="wd-fl-box-trending wd-color-gray">Tending in Science<br><span class="wd-color-white">Startship</span><br>55.5K Tweets</div>
+        </div>
+        <div class="wd-flex-container wd-without-topborder">
+            <div class="wd-fl-box-trending wd-color-gray">Sports Trending<br><span class="wd-color-white">Joe Rogan</span><br>5.218 Tweets</div>
+        </div>
+        <div class="wd-flex-container">
+            <div class="wd-grid-col-eighty-page wd-flex-top wd-color-gray">
+                <div class="wd-fl-box-trending">
+                    <span class="wd-color-white">The New York Times </span> &nbsp;&nbsp;Yesterday <br>
+                    <span class="wd-color-white-title">Easy to Use, Mobile Payment Apps Are Also Easy to Misuse</span>
+                </div>
+            </div>
+            <div class="wd-grid-col-twenty-page wd-flex-box me-5">
+                <img src="imgs/NYTimes.png" alt="settings" class="wd-rounded-corners-all-around" width="100px" height="100px">
+            </div>
+        </div>
+
+        <div class="wd-flex-container">
+            <div class="wd-grid-col-eighty-page wd-flex-top wd-color-gray">
+                <div class="wd-fl-box-trending">
+                    WEALTH<br>
+                    <span class="wd-color-white-title">Pension Funds in Historic Surplus Eye $1 Trillion of Bond-Buying</span>
+                </div>
+            </div>
+            <div class="wd-grid-col-twenty-page wd-flex-box me-5">
+                <img src="imgs/bonds.png"alt="Fed chair" class="wd-rounded-corners-all-around" width="100px" height="100px">
+            </div>
+        </div>
+
+        <div class="wd-flex-container">
+            <div class="wd-grid-col-eighty-page wd-flex-top wd-color-gray ">
+                <div class="wd-fl-box-trending">
+                    <span class="wd-color-white">Bloomberg </span> &nbsp;&nbsp;Yesterday <br>
+                    <span class="wd-color-white-title">Fed Set to Shrink Rate Hikes Again as Inflation Slows</span>
+                </div>
+            </div>
+            <div class="wd-grid-col-twenty-page wd-flex-box me-5">
+                <img src="imgs/fed_chair.png"alt="Fed chair" class="wd-rounded-corners-all-around" width="100px" height="100px">
+            </div>
+        </div>
+
+        <div class="wd-flex-container">
+            <div class="wd-grid-col-eighty-page wd-flex-top wd-color-gray">
+                <div class="wd-fl-box-trending">
+                    POLITICS<br>
+                    <span class="wd-color-white-title">Labour PM, Chancellor Would Publish Tax Returns, Starmer Says</span>
+                </div>
+            </div>
+            <div class="wd-grid-col-twenty-page wd-flex-box me-5">
+                <img src="imgs/photo.jpg"alt="Fed chair" class="wd-rounded-corners-all-around" width="100px" height="100px">
+            </div>
+        </div>
+    </div>
+    <div class="col-3 col-lg-3 col-xl-3 col-xxl-3">
+        <div class="d-none d-xxl-block d-xl-block d-lg-block d-sm-none">
+            <ul class="list-group wd-list-items">
+                <li class="list-group-item wd-list-items">
+                    <div class="wd-roboto">Who to follow</div>
+                </li>
+
+                <li class="list-group-item wd-list-items pb-0 ">
+                    <div class="row wd-align-follow">
+                        <div class="col-2">
+                            <img src="imgs/f1.jpg"alt="Fed chair" class="wd-rounded-corners-all-around" width="35px" height="35px">
+                        </div>
+                        <div class="col-6">
+                            <p class="wd-follow">
+                                Formula One&nbsp; <img src="imgs/verified.png" width="14px" height="14px"> <br><span class="wd-badge">@F1</span></p>
+                        </div>
+                        <div class="col-4 wd-align">
+                            <button class="btn btn-primary btn-sm wd-sm-btn-follow">
+                                Follow
+                            </button>
+
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item wd-list-items pt-0 pb-0">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="imgs/nyt.jpg"alt="NYT" class="wd-rounded-corners-all-around" width="35px" height="35px">
+                        </div>
+                        <div class="col-6">
+                            <p class="wd-follow">
+                                New York Times&nbsp; <img src="imgs/verified.png" width="14px" height="14px"> <br><span class="wd-badge">@nytimes</span></p>
+                        </div>
+                        <div class="col-4">
+                            <button class="btn btn-primary btn-sm wd-sm-btn-follow">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item wd-list-items pt-0 pb-0">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="imgs/bbva.png"alt="NYT" class="wd-rounded-corners-all-around" width="35px" height="35px">
+                        </div>
+                        <div class="col-6">
+                            <p class="wd-follow">
+                                BBVA Mexico&nbsp; <img src="imgs/verified.png" width="14px" height="14px"> <br><span class="wd-badge">@bbva_mexico</span></p>
+                        </div>
+                        <div class="col-4">
+                            <button class="btn btn-primary btn-sm wd-sm-btn-follow">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item wd-list-items pt-0 pb-0">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="imgs/sause.png"alt="NYT" class="wd-rounded-corners-all-around" width="35px" height="35px">
+                        </div>
+                        <div class="col-6">
+                            <p class="wd-follow">
+                                Vsauce Science <br><span class="wd-badge">@vsauce_science</span></p>
+                        </div>
+                        <div class="col-4">
+                            <button class="btn btn-primary btn-sm wd-sm-btn-follow">
+                                Follow
+                            </button>
+                        </div>
+                        </div>
+                </li>
+
+                <li class="list-group-item wd-list-items wd-badge pt-0 pb-0">
+                    <div class="row wd-fl-between">
+                        <span class="wd-color-blue pb-3">Show more</span>
+                    </div>
+                </li>
+                    </div>
+
+        </div>
+    </div>
+    </div>
+
+
 </div>
+
 </body>
 </html>
