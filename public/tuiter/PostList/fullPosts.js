@@ -1,0 +1,27 @@
+export default [
+    {
+        avatarIcon: '../explore/imgs/sause.png',
+        userName: 'Vsauce Science',
+        handle: 'sauce_science',
+        time: '23h',
+        tweet: "Just picked up a copy of @drbecky_'s A Brief History Of Black Holes.About to fall in ... 🕳",
+        image: '../explore/imgs/sause_twt.jpeg',
+        title: 'A brief History of Black Holes',
+        content: 'In A Brief History of Black Holes University of Oxford astrophysicist Dr. Becky Smethurst charts the scientific breakthroughs that have uncovered the weird and wonderful...',
+        ncomments: '4.2K',
+        nretuits: '3.5K',
+        nlikes: '37.5K',
+        link: 'amazon.com',
+    },
+    {
+        avatarIcon: '../explore/imgs/f1.jpg',
+        userName: 'Formula 1',
+        handle: 'F1',
+        time: '23h',
+        tweet: 'Alpine have announced Jack Doohan as their reserve driver for 2023 🤝',
+        image: '../explore/imgs/f1_twt.jpeg',
+        ncomments: '28',
+        nretuits: '89',
+        nlikes: '1952',
+    },
+];

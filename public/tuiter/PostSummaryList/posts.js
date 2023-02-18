@@ -1,0 +1,42 @@
+export default [
+{
+    topic:"DIGITAL PAYMENT",
+    userName:"The New York Times",
+    time:"Yesterday",
+    image:"../explore/imgs/NYTimes.png",
+    title: "Easy to Use, Mobile Payment Apps Are Also Easy to Misuse",
+    tweets: "",
+},
+{
+    topic:"WEALTH",
+    userName:"",
+    time:"2h",
+    image:"../explore/imgs/bonds.png",
+    title: "Pension Funds in Historic Surplus Eye $1 Trillion of Bond-Buying",
+    tweets: "",
+},
+{
+    topic:"",
+    userName:"Bloomberg",
+    time:"1 day",
+    image:"../explore/imgs/fed_chair.jpg",
+    title: "Fed Set to Shrink Rate Hikes Again as Inflation Slows",
+    tweets: "",
+},
+{
+    topic:"POLITICS",
+    userName:"",
+    time:"last hour",
+    image:"../explore/imgs/photo.jpg",
+    title: "Labour PM, Chancellor Would Publish Tax Returns, Starmer Says",
+    tweets: "122K",
+},
+{
+    topic:"FINANCE",
+    userName:"BBVA",
+    time:"Last month",
+    image:"../explore/imgs/bbva.png",
+    title: "Labour PM, Chancellor Would Publish Tax Returns, Starmer Says",
+    tweets: "120K",
+},
+];
