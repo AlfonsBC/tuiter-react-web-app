@@ -8,10 +8,12 @@ import "./index.css";
 import {Route, Routes} from "react-router";
 import whoReducer from "./reducers/who-reducer";
 import tuitsReducer from "./tuits/tuits-reducer";
+import homeTuitsReducer from "./tuits/home-tuits-reducer";
 import { configureStore } from '@reduxjs/toolkit';
 import {Provider} from "react-redux";
 const store = configureStore(
-{reducer: {who: whoReducer, tuits: tuitsReducer}});
+{reducer: {who: whoReducer, tuits: tuitsReducer, homeTuits: homeTuitsReducer,
+}});
 
 function Tuiter() {
     return (

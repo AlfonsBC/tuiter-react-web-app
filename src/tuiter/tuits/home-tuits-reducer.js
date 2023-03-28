@@ -1,19 +1,19 @@
 import {createSlice} from "@reduxjs/toolkit";
-import homeTuitsArray from "../data/posts-home.json"
+import homeTuitsArray from "./posts-home.json"
 
 const currentUser = {
-    "userName": "NASA",
-    "handle": "@nasa",
-    "avatarIcon": "../../images/nasa-icon.png"
+    "userName": "Vsauce Science",
+    "handle": "@sauce_science",
+    "avatarIcon": "sause.png"
 }
 
 const templateTuit = {
     ...currentUser,
-    "topic": "Space",
+    "topic": "Science",
     "time": "2h",
-    "comments": 0,
-    "retuits": 0,
-    "likes": 0,
+    "ncomments": 0,
+    "nretuits": 0,
+    "nlikes": 0,
     "liked": false
 }
 
@@ -25,11 +25,11 @@ const homeTuitsSlice = createSlice({
             const post = state.findIndex((post) => post._id === action.payload._id)
             if (state[post].liked) {
                 state[post].liked = false;
-                state[post].likes -= 1;
+                state[post].nlikes -= 1;
             }
             else {
                 state[post].liked = true;
-                state[post].likes += 1;
+                state[post].nlikes += 1;
             }
         },
         createTuit(state, action) {

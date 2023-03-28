@@ -11,10 +11,10 @@ const TuitStats = ({post}) => {
     return (
         <ul className="nav mt-2 nav-fill text-secondary">
             <li className="nav-item">
-                <i className="bi bi-chat fa-sm me-2"></i>{post.comments}
+                <i className="bi bi-chat fa-sm me-2"></i>{post.ncomments}
             </li>
             <li className="nav-item">
-                <i className="bi bi-repeat fa-sm me-2"></i>{post.retuits}
+                <i className="bi bi-repeat fa-sm me-2"></i>{post.nretuits}
             </li>
             <li onClick={() => toggleLike(post)}
                 className="nav-item">
@@ -25,7 +25,7 @@ const TuitStats = ({post}) => {
                 {
                     !post.liked &&
                     <i className="bi bi-heart fa-sm me-2"></i>
-                }{post.likes}
+                }{post.nlikes}
             </li>
             <li className="nav-item">
                 <i className="bi bi-share fa-sm me-2"></i>
