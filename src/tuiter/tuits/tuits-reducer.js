@@ -4,7 +4,7 @@ import tuits from './tuits.json';
 const currentUser = {
     "userName": "NASA",
     "handle": "@nasa",
-    "image": "nasa.png",
+    "image": "nyt.png",
     };// create an object that represents the currently
     // logged in user which contains profile information
     // such as username, their avatar logo, and handle.
@@ -15,15 +15,22 @@ const templateTuit = {
     "topic": "Space",
     "time": "2h",
     "liked": false,
-    "replies": 0,
-    "retuits": 0,
-    "likes": 0,
+    "nretuits": 0,
+    "nretuits": 0,
+    "nlikes": 0,
 }
 
 const tuitsSlice = createSlice({
 name: 'tuits',
 initialState: tuits,
 reducers: {
+    deleteTuit(state, action) {
+        const index = state
+        .findIndex(tuit =>
+        tuit._id === action.payload);
+        state.splice(index, 1);
+        },
+
     createTuit(state, action) {
     state.unshift({
     ...action.payload,
@@ -38,5 +45,5 @@ reducers: {
     }
 }
 });
-export const {createTuit} = tuitsSlice.actions;
+export const {createTuit, deleteTuit} = tuitsSlice.actions;
 export default tuitsSlice.reducer;

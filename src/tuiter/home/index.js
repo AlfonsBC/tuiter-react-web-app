@@ -6,7 +6,7 @@ import WhatsHappening from "./whats-happening";
 const HomeComponent = () => {
     return(
         <>
-            <PostList/>
+            
             <WhatsHappening/>
             <TuitsList/>
 

@@ -19,10 +19,25 @@
         "userName": "Formula 1",
         "handle": "@F1",
         "time": "23h",
-        "tuit": "Alpine have announced Jack Doohan as their reserve driver for 2023 🤝",
+        "tuit": "Next stop: Melbourne! 🇦🇺\n\nThe F1 Nation crew are joined by @AstonMartinF1 \nteam boss Mike Krack to explain how they have vaulted up the competitive order in 2023 📈🎙️\nListen to the podcast!",
         "ncomments": 28,
         "nretuits": 89,
         "nlikes": 1952,
         "liked":false
+    },
+    {
+        "_id":"345",
+        "avatarIcon": "bbva.png",
+        "topic": "Finance",
+        "userName": "BBVA",
+        "handle": "@BBVA",
+        "time": "1h",
+        "tuit": "¿Qué es mejor para tu #SaludFinanciera, pagar tus deudas o ahorrar? 👉 Cancelar las deudas lo antes posible es una buena estrategia, siempre y cuando no te impida hacer frente a gastos imprevistos o a conseguir tus metas vitales. Te lo contamos aquí.",
+        "ncomments": 2,
+        "nretuits": 8,
+        "nlikes": 92,
+        "liked":false
     }
+
+
 ]
