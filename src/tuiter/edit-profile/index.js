@@ -8,7 +8,6 @@ import {updateProfile} from "../reducers/profile-reducer";
 const EditProfileComponent = () => {
     const profile = useSelector(state => state.profile)
     const [person, setperson] = useState(profile);
-    const inputdate = profile.dateJoined
     const bioChange =(event) =>{
         const bioValue =event.target.value;
         const newPerson ={
@@ -64,8 +63,8 @@ const EditProfileComponent = () => {
             </div>
             <div>
                 <div className="profile-image-container">
-                    <img src={`${profile.bannerPicture}`} width={250} alt="First Image" className="edit-profile-banner"></img>
-                    <img src={`${profile.profilePicture}`} alt="Second Image" className="edit-profile-avarter"></img>
+                    <img src={`${profile.bannerPicture}`} width={250} alt="Profile avatar" className="edit-profile-banner"></img>
+                    <img src={`${profile.profilePicture}`} alt="Profile banner" className="edit-profile-avarter"></img>
 
                 </div>
                 <br/>
