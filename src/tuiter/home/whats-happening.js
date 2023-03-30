@@ -14,7 +14,7 @@ const tuitClickHandler = () => {
 return (
 <div className="row">
 <div className="col-auto">
-<img src="/images/logon.jpg" width={60} alt=""/>
+<img src="/images/logon.jpg" width={60} alt={""} className="rounded-pill"/>
 </div>
 <div className="col-10">
 <textarea value={whatsHappening} placeholder="What's happening?"

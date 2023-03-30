@@ -12,8 +12,8 @@ const currentUser = {
 
 const templateTuit = {
     ...currentUser,
-    "topic": "Space",
-    "time": "2h",
+    "topic": "",
+    "time": "just now",
     "liked": false,
     "ncomments": 0,
     "nretuits": 0,
@@ -24,25 +24,22 @@ const tuitsSlice = createSlice({
 name: 'tuits',
 initialState: tuits,
 reducers: {
+    createTuit(state, action) {
+        state.unshift({
+        ...action.payload,
+        ...templateTuit,
+        _id: (new Date()).getTime(),
+        })
+        },
+    
     deleteTuit(state, action) {
         const index = state
         .findIndex(tuit =>
         tuit._id === action.payload);
         state.splice(index, 1);
-        },
+        }
 
-    createTuit(state, action) {
-    state.unshift({
-    ...action.payload,
-    ...templateTuit,
-    _id: (new Date()).getTime(),
-    // add createTuit reducer function which appends
-    // the new tuit in the payload at the beginning of the
-    // array of tuits contained in the state. Also copy
-    // all fields from templateTuit and initialize
-    // the unique identifier with a timestamp})
-    })
-    }
+    
 }
 });
 export const {createTuit, deleteTuit} = tuitsSlice.actions;
