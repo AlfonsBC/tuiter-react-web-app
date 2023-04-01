@@ -1,19 +1,19 @@
 import React from "react";
 import TuitStats from "./tuit-stats";
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "./home-tuits-reducer";
-
+//import {deleteTuit} from "./home-tuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 
 const TuitItem = ({post}) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id))
+        dispatch(deleteTuitThunk(id))
     }
     return (
         <li className="list-group-item bg-transparent">
             <div className="row">
                 <div className="col-1 g-0">
-                    <img className="img-fluid rounded-circle" src={`/images/${post.avatarIcon}`} alt=""/>
+                    <img className="img-fluid rounded-circle" src={`/images/${post.image}`} alt=""/>
                 </div>
                 <div className="col-11">
                     <span>

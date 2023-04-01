@@ -15,9 +15,9 @@ import homeTuitsReducer from "./tuits/home-tuits-reducer";
 import profileReducer from "./reducers/profile-reducer";
 const store = configureStore(
 {reducer: {who: whoReducer, 
-           tuits: tuitsReducer, 
            homeTuits: homeTuitsReducer, 
-           profile: profileReducer}});
+           profile: profileReducer,
+           tuitsData: tuitsReducer}});
 
 function Tuiter() {
     return (
